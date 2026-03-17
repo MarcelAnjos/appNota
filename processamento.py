@@ -6,4 +6,3 @@ def calc_media(notas=[]):
     if media >10:
         media = 10
     return media
-

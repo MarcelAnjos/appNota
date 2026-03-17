@@ -7,3 +7,10 @@ def calc_media(notas=[]):
         media = 10
     return media
 
+def status(n):
+    if n >= 7:
+        n="APROVADO"
+        return n
+    else:
+        n="RECUPERACAO"
+        return n

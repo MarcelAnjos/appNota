@@ -30,3 +30,7 @@ def validar_notas(notas):
             raise ValueError(f"Nota fora do intervalo permitido: {nota}")
 
     return True
+
+def num_atividade(n):
+    return n
+
